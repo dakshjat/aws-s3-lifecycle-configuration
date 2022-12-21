@@ -1,0 +1,12 @@
+environment             = "sandbox"
+bucket                  = "mybucket"
+length                  = 6
+lower                   = true
+numeric                 = true
+special                 = false
+upper                   = false
+min_lower               = 4
+min_numeric             = 2
+deletion_window_in_days = 7
+s3_sse_algorithm        = "aws:kms"
+s3_bucket_acl           = "private"
